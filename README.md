@@ -11,4 +11,4 @@
 ## Linux Cgroups介绍
 `Linux Cgroups（Control Groups）`提供了对一组进程及将来子进程的资源限制、控制和统计的能力，这些资源包括CPU、内存、存储、网络等
 ## Union File System
-`Union File System`，简称`UnionFS`，是一种为`Linux`、`FreeBSD`和`NetBSD`操作系统设计的，把其他文件系统联合到一个联合挂载点的文件系统服务。
+`Union File System`，简称`UnionFS`，是一种为`Linux`、`FreeBSD`和`NetBSD`操作系统设计的，把其他文件系统联合到一个联合挂载点的文件系统服务。`AUFS`，英文全称是`Advanced Multi-Layered Unification Filesystem`。`AUFS`完全重写了早期的`UnionFS 1.x`。`AUFS`是`Docker`选用的第一种存储驱动。`AUFS`具有快速启动容器、高效利用存储和内存的优点。
